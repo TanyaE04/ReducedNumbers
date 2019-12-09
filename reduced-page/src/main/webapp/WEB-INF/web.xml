@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns="http://java.sun.com/xml/ns/javaee" 
+		xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Controller</servlet-name>
+  	<servlet-class>by.it.pages.controller.Controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Controller</servlet-name>
+  	<url-pattern>/controller</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>reducedPageNumbers</servlet-name>
+  	<servlet-class>by.it.pages.controller.ReducedPageNumbers</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>ReducedPageNumbers</display-name>
+  	<servlet-name>ReducedPageNumbers</servlet-name>
+  	<servlet-class>by.it.pages.controller.ReducedPageNumbers</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>reducedPageNumbers</servlet-name>
+  	<url-pattern>/reducedPageNumbers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReducedPageNumbers</servlet-name>
+  	<url-pattern>/ReducedPageNumbers</url-pattern>
+  </servlet-mapping>
+</web-app>
