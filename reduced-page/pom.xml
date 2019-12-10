@@ -3,12 +3,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   
   <modelVersion>4.0.0</modelVersion>
-  <groupId>by.it.redused-page-numbers</groupId>
-  <artifactId>redeced-page</artifactId>
+  <groupId>by.it.reduced-page-numbers</groupId>
+  <artifactId>reduced-page</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   
-  <name>redeced-page Maven Webapp</name>
+  <name>reduced-page Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
     <properties>
@@ -42,7 +42,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>redeced-page</finalName>
+    <finalName>reduced-page</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>

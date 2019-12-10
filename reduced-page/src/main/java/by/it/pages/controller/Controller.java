@@ -12,9 +12,7 @@ import by.it.pages.number_pages.ReducedPageNumber;
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public Controller() {
-		super();
-	}
+	public Controller() { super(); }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {

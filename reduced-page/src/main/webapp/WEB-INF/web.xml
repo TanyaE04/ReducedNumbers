@@ -15,19 +15,8 @@
   	<servlet-name>reducedPageNumbers</servlet-name>
   	<servlet-class>by.it.pages.controller.ReducedPageNumbers</servlet-class>
   </servlet>
-  <servlet>
-  	<description>
-  	</description>
-  	<display-name>ReducedPageNumbers</display-name>
-  	<servlet-name>ReducedPageNumbers</servlet-name>
-  	<servlet-class>by.it.pages.controller.ReducedPageNumbers</servlet-class>
-  </servlet>
   <servlet-mapping>
   	<servlet-name>reducedPageNumbers</servlet-name>
   	<url-pattern>/reducedPageNumbers</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-  	<servlet-name>ReducedPageNumbers</servlet-name>
-  	<url-pattern>/ReducedPageNumbers</url-pattern>
   </servlet-mapping>
 </web-app>
